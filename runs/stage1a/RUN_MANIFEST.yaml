@@ -1,0 +1,41 @@
+run_id: STAGE1A-20261003T203425Z
+created_utc: '2026-10-03T20:34:25Z'
+git:
+  commit: b9279e32187a816675f014c9b210ef3ef9d32123
+  dirty: 7
+model:
+  model: Qwen/Qwen2.5-7B-Instruct-AWQ
+  model_revision: b25037543e9394b818fdfca67ab2a00ecc7dd641
+  torch: 2.11.0+cu128
+  cuda_runtime: '12.8'
+  gpu: NVIDIA GeForce RTX 5070
+  compute_capability: sm120
+  transformers: 4.49.0
+  autoawq: 0.2.7.post3
+  triton: 3.8.0
+  kernel_path: AutoAWQ Triton (identical to P0-V2/GPU-acceptance stack)
+  os: Windows-10-10.0.26200-SP0
+backend_fingerprint_id: e459ef89eb03f178
+registry_sha256: 93afa9d2f81e894ca0a8c6ce6d5edd9c2f36242b04f0003e7be8275a78ebffcf
+decoding:
+  r0:
+    temperature: 0.7
+    top_p: 0.95
+    seeds:
+    - 20261011
+    - 20261012
+    - 20261013
+    max_new_tokens: 2048
+  speculative:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  certificate:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 1024
+commit_gate: PASS->COMMIT; FAIL/UNABLE->ROLLBACK (deterministic, PI §8)
+budget:
+  MAX_STAGE1A_GENERATIONS: 3300
+  TOKEN_CEILING: 1600000
+note: S1/S2/S3 share one speculative generation set (PI §6/§15 paired design)

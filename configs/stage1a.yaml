@@ -1,0 +1,39 @@
+# configs/stage1a.yaml — SCD Stage-1A frozen configuration
+version: 1
+stage: 1A
+
+registry:
+  path: data/sample_registry.json
+  sha256: null                      # filled at freeze from data/sample_registry.sha256
+  seed: 20261101
+  n_questions: 150
+
+model:
+  repo: Qwen/Qwen2.5-7B-Instruct-AWQ
+  revision: b25037543e9394b818fdfca67ab2a00ecc7dd641
+  backend: identical to aove-mad P0-V2/GPU-acceptance stack (imported via ../aove-mad/src)
+  environment_python: ../aove-mad/.venv (frozen inference environment; no evaluator packages added)
+
+decoding:
+  r0: { temperature: 0.7, top_p: 0.95, seeds: [20261011, 20261012, 20261013], max_new_tokens: 2048 }
+  speculative: { temperature: 0.0, top_p: 1.0, max_new_tokens: 2048 }   # serves S1/S2/S3 (paired design, PI §6/§15)
+  certificate: { temperature: 0.0, top_p: 1.0, max_new_tokens: 1024 }
+
+conditions:
+  S0: independent vote over the three R0 answers; no revision
+  S1: adopt the speculative revision (direct exposure endpoint)
+  S2: always keep P_i (speculation generated but discarded)
+  S3: certificate gate decides commit/rollback of S_i
+  S4: FOREIGN certificate (matched by dataset + similar certificate length; different question) decides commit/rollback of the SAME S_i
+  pairing: one shared speculative generation per (question, agent) feeds S1/S2/S3 — PI §6/§15
+  mismatch_map_seed: 20261102
+
+commit_gate:                        # PI §8 — hard symbolic rule, frozen
+  PASS: COMMIT
+  FAIL: ROLLBACK
+  UNABLE: ROLLBACK
+
+budget:
+  MAX_STAGE1A_GENERATIONS: 3300     # PI hard ceiling
+  expected_generations: 1350        # 450 R0 + 450 speculative (shared by S1/S2/S3) + 450 certificates; S4 reuses S_i (PI §S4 "apply it to the same speculative transitions")
+  TOKEN_CEILING: 1600000            # P0-V2 measured mean 1,033 tok/gen x 1,350 = 1.395M; +15% margin (PI requires >=5%)

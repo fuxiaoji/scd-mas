@@ -1,0 +1,1225 @@
+{
+ "created_utc": "2026-10-03T16:51:44Z",
+ "scd_sample_seed": 20261101,
+ "selection_rule": "deterministic permutation of the pinned catalogs EXCLUDING all aove-mad registered IDs; gold never read; AOVE outcomes never consulted",
+ "excluded_aove_ids": 1750,
+ "per_dataset": {
+  "mmlu_pro": {
+   "catalog": 12032,
+   "fresh_after_aove_exclusion": 11032,
+   "sampled": 50
+  },
+  "math_500": {
+   "catalog": 500,
+   "fresh_after_aove_exclusion": 150,
+   "sampled": 50
+  },
+  "benchform": {
+   "catalog": 3299,
+   "fresh_after_aove_exclusion": 2899,
+   "sampled": 50
+  }
+ },
+ "rows": [
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:causal_judgment:86:4835fd38c3dd",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4835fd38c3dd3c5c7a3401a9687657d8363afcebd289d0ee29c7a9e0fc0b5aa3",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:date_understanding:233:ce7ad0469734",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ce7ad0469734edb0ba0f458f7d99216703cbec46957fe087daeb9dfb1113c22f",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:104:90e89ca067e1",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "90e89ca067e12e7f64c0cff885b157e49143424097338b04301ec23b913ba340",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:114:a5054896f9b3",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a5054896f9b3feb57ffb2f009a2155ddcb4a25c6c8ba61929b084a0f8a434ed8",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:183:ed28f17ddb35",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ed28f17ddb35c49ece82a491cedf0a147483037a2c63a5896b7c2ba11280c504",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:195:e3680062dc3a",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e3680062dc3abb3f59eb9e43dec668aa21387cde9518eae7b39f5a9d8647e52b",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:41:c18aa3e42c11",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c18aa3e42c11caac3be4a75af2fe3b7c32ffa6d68bad81742e7e8575b3e8c0cd",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:disambiguation_qa:95:a2f2dc1bc330",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a2f2dc1bc3307c8868076e2d452a2e1e999db48001f850281a091e99c879a8f2",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:hyperbaton:124:e5124663d8e0",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e5124663d8e0f62530172139ca3f891e8724fa4a747c8c867f70a31251f8bf30",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:hyperbaton:227:541c9df742f9",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "541c9df742f996034d42809eecafc207f30062a6281ad7e096fd3fab5ecc3b56",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:hyperbaton:255:29ffadc226e1",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "29ffadc226e14ac8775d833894a3b3ffb1dacbfbf838de00efea93341df264fb",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:hyperbaton:47:501f1e5325ee",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "501f1e5325eec57c9f5e9cf74e14239e0b9e1be4b612f24af3f6f7b6486d49c7",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:hyperbaton:53:be18edc2a331",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "be18edc2a3311ea528411a759177cc59debe7005d94b945a2229d87ac35faed3",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:logical_deduction_five_objects:185:0135f9c83a87",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "0135f9c83a870326f24aa9ec3bcafd7fbdcea203852dab9116056af1fa550b02",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:logical_deduction_five_objects:76:1a6704ee62df",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "1a6704ee62df30e8f57bd9f7543d27feb964963c3ce158277ea0c23090ba8b14",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:logical_deduction_five_objects:87:52dc088b3928",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "52dc088b3928cd682d1b7fd2a522d7dd5a515eefe364ce78948294df059021a8",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:movie_recommendation:128:98adc74b4664",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "98adc74b4664fe68393485019d3b1447e2669eea8022ff3dc2b650e92f4144d8",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:movie_recommendation:256:4675ac23876b",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4675ac23876b477d40b628cd6cb41dd7c175ff8c2a31473edae94f0d351da1eb",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:movie_recommendation:28:f95ccf1659ce",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "f95ccf1659ce3a62e943858144d7dfa8628f105d0640e8f8c9b23f4df77973f5",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:navigate:264:76f3054750fe",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "76f3054750feb739a937c6117ec2f77124985cd1be71ff17897511497896a3d8",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:navigate:294:143e5b62d8d9",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "143e5b62d8d95c9ffcaf890e8497e703daec74656cc3208380cd3008217260d9",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:navigate:90:eec043cfcb0c",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "eec043cfcb0c66feb5b11695daaafa0ae451a78a7a35ef23f3d41610da4b8bce",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:138:0d2973c0fe44",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "0d2973c0fe44d41004bf9388d76ee88a8cef85445a93c03370488c15292d0481",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:168:35828139be5d",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "35828139be5d3a8f973f909a4f51fea7f027902481a665a1d92bec4060551c29",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:236:d8ff9c0918fe",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d8ff9c0918feea90a0932e11a092957b51d3e55f4ee83be373ee7fd8deb280b3",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:270:62120e9bc45a",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "62120e9bc45acbfbfa310abb43021471a65fbfe34ba10d4383e86c783534f849",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:281:6ea175b96fb0",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6ea175b96fb09c311e759c17c863209de5f2fbf4cbfebf8948888b4ff2f2d170",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:ruin_names:83:bdc9589b9082",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "bdc9589b9082a28d9b3dcdd9fb9d55be0b1e78c4a844c7cc1b3ee211b8f88071",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:snarks:1:f413fb7cb18c",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "f413fb7cb18c58724d1eb762204b3f6fad17a8538252a64cc3a817dd6c858cb9",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:snarks:20:c90e45a4aade",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c90e45a4aade4dff9bc9c5c2424c8220fe22b5fc395fba0fc5a4aa8d6561abbb",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:snarks:40:efb3a233070e",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "efb3a233070e5aac9df1dac33e4e101c7aa7d04549e3935812140b28992f9d55",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:snarks:64:c9acff1d70a8",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c9acff1d70a811b47c96716ca5a49424434a4b106e6dd7306a1c443a186addd8",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:snarks:95:a7c26fd6488f",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a7c26fd6488f1be121c7000e441f334d1080f5b27af677f594b95631e61396aa",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:106:4124d1021bf9",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4124d1021bf9efde2c6bd8504871297e13c1f2d842729ec6eb97ed2f99b085bd",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:189:c45d92ceb60c",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c45d92ceb60cc2c2f22d0e4966571d3df56a2643fcb89f13a7382181ba692f84",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:207:7ef3d849c8b5",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "7ef3d849c8b539921dc3e835ff9b550dd7593d890bcc838696a6850f3ef9e09e",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:221:556ef899ec8b",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "556ef899ec8b609d9de10dd4e22b8b0ac571ae79bebd5330008645fea5b08ca9",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:260:aab50883cf21",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "aab50883cf210afc111c80fcb350950fae2854fcc66a9b15405f5f94f67733b0",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:37:6645eedfe9c3",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6645eedfe9c3ab8faf112de25ab1922a90cfe8129c98868e956da5b0af871cef",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:sports_understanding:77:92e8189a5bc7",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "92e8189a5bc7edd5b37e17c207e5a8fea1b0ceda4c5c0ef9be896ec4f67cde09",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:temporal_sequences:103:61172cdfc9d1",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "61172cdfc9d1dca988b784c828a46f21357f94abf5343b1b22a2fbfe6874a538",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:temporal_sequences:127:93b83900cf14",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "93b83900cf14fbc53966db95a516ec2c9733f457cfa912c65835927fae83a15b",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:temporal_sequences:150:c77f9e02c2b5",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c77f9e02c2b5ef0f40f3b655fa903d0dfae5e927a167abad38fe783448b8991f",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:temporal_sequences:186:828edb52604d",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "828edb52604d20c2bb818a5f096ebbbb11a22ac75c4dd07010dc9e597aee007f",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:temporal_sequences:274:118c225a5c0c",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "118c225a5c0c14bbe1c8a0496177d65c9ba21901eb0bb09ffab2c8975aa6cb64",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:tracking_shuffled_objects_three_objects:157:2fa491b80a62",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "2fa491b80a6234550af198ca41ce35fae2e0b3bcb503a17c5d2afa3f477c038a",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:web_of_lies:163:9b1ddb055c1d",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "9b1ddb055c1d7c34602e0336e0587afb42eebc6670cdaff70dfb456dbc43f5dd",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:web_of_lies:17:bc5474cc5b0e",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "bc5474cc5b0ecbf5cfa8554a11449ad4b5167eddd5156789a0c7ee15c2bb01f4",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:web_of_lies:197:9829d783f302",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "9829d783f302f0b1c137edb5c078ff6e33a27d302265c65fcc8f70009aae1d8f",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "benchform",
+   "canonical_question_id": "benchform:web_of_lies:202:89422b9397fd",
+   "source_revision": "6425ecaebd9dd273a13ea28e32767c452e04c6a6",
+   "sample_role": "SCD_DEV",
+   "question_hash": "89422b9397fd42737863ccb191721d41acd7530eb52790f30141ff07cab6f479",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/1004.json:21e3aa0cdbfe",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "21e3aa0cdbfe761a0655d9980793aaf0afcba6c1028d19e9bb3d6052fe75ec15",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/1082.json:9dadcec4ce9d",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "9dadcec4ce9dd05f4eb2bad0c7751f17d1118bf644399b583c210ff367797713",
+   "gold_hash": "535fa30d7e25dd8a"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/1199.json:2bf2a416429c",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "2bf2a416429c8a87b93c6bb88bb8e550282e70d4380b166e218979a358068a7d",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/2232.json:4bf09b4453a8",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4bf09b4453a890caece06df77b86cfd555d777c782fb7a8785a43356858a9bb9",
+   "gold_hash": "615bdd17c2556f82"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/2427.json:d679be77bf18",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d679be77bf18f5ae1dac115b2c9b2af636206fdf9a115f418e74ee1bc248bbf1",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/2780.json:cdaeb4bf71f6",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "cdaeb4bf71f691123c54b932ef3a3c576c391ab5541bdf75dcc68a7d07c22764",
+   "gold_hash": "5ef762feabb29600"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/524.json:83864f874959",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "83864f8749594ce401668e94215e18631f899ca2e8f1da9c0ab889a10699b4d2",
+   "gold_hash": "ec351e24af73a8d6"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/824.json:48e7b5d5a1bb",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "48e7b5d5a1bb68e82a3627042d548db436a56467d8c13ae40bae4455a19aa99e",
+   "gold_hash": "6b51d431df5d7f14"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/algebra/853.json:c132bc995ac9",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c132bc995ac93e435f3252febabe9f13eccfd3e79f661553b5248ffae74e9247",
+   "gold_hash": "6b51d431df5d7f14"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/1014.json:f25c15fb3535",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "f25c15fb353535a819b13a39ad4e6d6f3cdf8147d2c8ae5f621637cef9e11f11",
+   "gold_hash": "ddfe0e8d462af661"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/116.json:24416ee05263",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "24416ee05263b73165332aa78aa027b367e8f545063c7d3bd366bcc499bd4163",
+   "gold_hash": "3a1e191db60edbc0"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/188.json:21279e30be06",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "21279e30be06ebf289ecddd205b0da335cb415458f60c5480c344528208c5abd",
+   "gold_hash": "e7e9536310cdba7f"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/230.json:d72f569d1481",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d72f569d1481ef223a6c4248f1cb98c9d66fd076a9f4ded1271d9297cf619fb3",
+   "gold_hash": "d286cbc68a203ec1"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/23957.json:73440cb70194",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "73440cb70194642f945e141fd4acb29812720f55ada5f4a712149ce4189d9b2b",
+   "gold_hash": "d29d53701d3c859e"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/525.json:74aae40cecc0",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "74aae40cecc02fdb9b81983d7c59f3e49deb75ac612e06fbc60932a56d318834",
+   "gold_hash": "5ec1a0c99d428601"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/803.json:4c1c2d962a0e",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4c1c2d962a0e65a5ea2f0e8cbbb01afb30c151d1fd463da969ffacc758afc600",
+   "gold_hash": "5f028113fb418f45"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/counting_and_probability/913.json:3447eebbdcaa",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "3447eebbdcaa37f97290ede09df1f2b22667b04d315fe73422b8953b0b22791a",
+   "gold_hash": "e7f6c011776e8db7"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/geometry/172.json:bf1b475d2d82",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "bf1b475d2d82a865ac17bd64dff5e3b303f7ae3409a20f60923a0ab3c0845475",
+   "gold_hash": "2c624232cdd22177"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/geometry/465.json:b39e148459d7",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "b39e148459d7f0e0544d2b5fb66da928f3c6b0c19f2d285494729c664b76fae5",
+   "gold_hash": "2abaca4911e68fa9"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/geometry/702.json:c35f86042deb",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c35f86042debe14eaf00fab25666128bf54d5923ace657db10e5dee5731e9ae3",
+   "gold_hash": "a512db2741cd2069"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/geometry/73.json:ea88ff699f5e",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ea88ff699f5e513c7405e0f14ed2efa9fcd24aca33b24f9104e473cf398eb950",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/geometry/795.json:04fc13556e3f",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "04fc13556e3fc4c6e19ac0d5ec80a2875d50384a423cc6037ef2a5a0230dbf5b",
+   "gold_hash": "2d6f47e9e33dd90d"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/101.json:827611782a6a",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "827611782a6a81f2dceb9570ccd65371b861bc461a876485614d11d91a327086",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/1151.json:49d399a24200",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "49d399a24200f4107ed7e578e9e3c90e37de4982ae4e297f4a5b855f874db73f",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/117.json:7c500c083448",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "7c500c083448945bdc64d76afd1212ae3b3d466c1c63b3a200cea838459b7ac3",
+   "gold_hash": "e629fa6598d73276"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/1508.json:b102f75a4648",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "b102f75a46486226d9e1c0433f44db429637c0350b00be0764e44974ae745b24",
+   "gold_hash": "1bad6b8cf97131fc"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/199.json:d32a3fa07b18",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d32a3fa07b18122a86c8d037617dbade753b37f7034e0a975f68abb1436cb03f",
+   "gold_hash": "037336a1e9a30e08"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/431.json:8870acf1d4b1",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "8870acf1d4b163f5258e946e4d2c7ba10bdf9f05639fb6a3b48fb3ae0117df22",
+   "gold_hash": "b3ecebb095ddc9b9"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/446.json:a66962fe3ac6",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a66962fe3ac65ca5c8a4d2dcc2e76cee19932a92eefa18eb81c7c608d8203293",
+   "gold_hash": "19581e27de7ced00"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/intermediate_algebra/558.json:81dd044c95a0",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "81dd044c95a0fca370049bbe465d01d2ca1eb6eafacb8e3e0688e47148866643",
+   "gold_hash": "eea4bf1ea723d34d"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/1090.json:d1e39ceb48a9",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d1e39ceb48a9c9f1b5daa6084c7c3aa678dbca1469898bab2924bd5422b8c7c6",
+   "gold_hash": "c17edaae86e4016a"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/1201.json:5b79ff26844c",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "5b79ff26844cbbaf20af06a5a3c0e981e9275b1280c406e998bfb0dd9d17dee4",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/45.json:e8bbc51e4f0c",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e8bbc51e4f0cedba36262f97fad41f97059c8e6ad037d851dd35f3afe17cd5e3",
+   "gold_hash": "535fa30d7e25dd8a"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/515.json:1866ff06f6f0",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "1866ff06f6f007c876ca5c8b3735eff705430cd776153f42492392b1a56aedd3",
+   "gold_hash": "670671cd97404156"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/533.json:71eae2be9ad1",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "71eae2be9ad19da74cc73b8bb6b7525b8c3f03ce365ee6116c091849f7e65f80",
+   "gold_hash": "2f1987bf98c09d2f"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/572.json:32c3cda4fa5f",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "32c3cda4fa5ff5d18cbac4e45b23dcf4833ddf37179609d1614e2403e68096ef",
+   "gold_hash": "19581e27de7ced00"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/753.json:57d488b1dac9",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "57d488b1dac9c9215bb4b73f4366bc6ecd4f8afa13d12fd92bb18f6fa2102192",
+   "gold_hash": "3fdba35f04dc8c46"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/number_theory/928.json:3bc30c4cda03",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "3bc30c4cda03ad051c7b8f030b6da5a38e0ca0df24550e505c1df9b3d6c73024",
+   "gold_hash": "4e07408562bedb8b"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1139.json:c93b65d8d852",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "c93b65d8d85209905d858da432a77bf3f397818bf68da599bff40fe9a1ccf6bb",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1233.json:3c77f3abead8",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "3c77f3abead87cb6dbf179ceb8ad0bfb90edca4d496497c26f5192da835514e4",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1238.json:bdd43ed05065",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "bdd43ed050657861956848746ea2ae6a5aa644a76a77dd889f6e1ecb5a42f982",
+   "gold_hash": "d4735e3a265e16ee"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1388.json:3d1f09ed5cfd",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "3d1f09ed5cfd53dce0cdfa464313ae23908a90c6fb2ce32ec3d3e2ba3f403ac0",
+   "gold_hash": "bbb965ab0c80d653"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1747.json:0f8bfc43c716",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "0f8bfc43c716b9e152190ae738a1960fb7c90f8c7f157d32e05c8bfa8dd57978",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/1930.json:66777c6b1d13",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "66777c6b1d130f4578f69bdd5f473be8ccae353f57bfe9d871a591d218de42dd",
+   "gold_hash": "7902699be42c8a8e"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/2019.json:2ca7e059eeb0",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "2ca7e059eeb0b7ddaa9a268c68ce111e0895dfc485cd682f7e9d032902cadf61",
+   "gold_hash": "32209ccbf8a8e509"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/2086.json:ee7c7225248f",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ee7c7225248fbed1c2a2467e526eb29fd9493884ec6bb85382dd1d53ee0f5ea7",
+   "gold_hash": "d59eced1ded07f84"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/805.json:ebfbf81b2d04",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ebfbf81b2d04ffc41c87ace1fe0a5656445be73a7e6e2f300f2c4d02accfafd5",
+   "gold_hash": "3d914f9348c9cc0f"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/prealgebra/846.json:63fb0c19be9b",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "63fb0c19be9bfc02dd48ad3466d54f5e77cc37b67348eae9701a55a225d676db",
+   "gold_hash": "44c8031cb036a735"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/precalculus/452.json:377a092aa19d",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "377a092aa19d9ef01790154f0bd4084e82fd298854b333741f6d1ac3d5eaa8db",
+   "gold_hash": "cccbe8992471d546"
+  },
+  {
+   "dataset": "math_500",
+   "canonical_question_id": "math500:test/precalculus/625.json:4eb54cd64aed",
+   "source_revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "4eb54cd64aed6e3c254e2a2383561efcff73f045f0e296420929039fd72a56f7",
+   "gold_hash": "4b70c7c14a10e919"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:10266:09f09de671da",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "09f09de671dab673becff5f4aa21a8c274756323a7caaa7b5638adb98ae14fd7",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:10314:738cff1f013c",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "738cff1f013c5cae4bb246a934d738f6f609115195d2cb8078ab67261a37fe16",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:10458:5993c3fcc900",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "5993c3fcc9001c6bd331dacecb35b41c1417a0e7e652a4c43607c82ff73d91ea",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:10578:2f13a1917b64",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "2f13a1917b64609c690187f934827138c13d05d15dcaf6cb9c9db6f5db7d4143",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:10774:e127dfa999d2",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e127dfa999d2e97e245341f140106ec9433e89c115d2dd782d67276d2cb40e77",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:109:593cbbcd6e0a",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "593cbbcd6e0a763570320be8e73e253b44b849f0619a6d504986f0a204a68003",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:11286:45923347e041",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "45923347e041bb0719f4b80b6dcb847ee5f40ae72485f11670efce25e990d8bd",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:11614:287c1dff2ba0",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "287c1dff2ba0b362a5a630de87662d13c075d574ef07b7da4d24e658a585950c",
+   "gold_hash": "a83dd0ccbffe39d0"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:11752:cfc3bc360aba",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "cfc3bc360abaad8742d38c40d1726b6a5ebb0f665dc91952fd14455fec02e94c",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1391:6495e5c9c57f",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6495e5c9c57f3dd756522772572505ce3b10b08f9e3dbcedc0c370281856a14f",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1491:7eec213b8d5f",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "7eec213b8d5f27aed0103503bff43f57d61da3b47df56f05f3e8f2e6b5e3077c",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1525:8eab09145af5",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "8eab09145af58d28b1882107430ba9ce8ee32572ae755c5dba96ef19ceb10621",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1527:d58d9031f824",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d58d9031f824cc96aa2e0e14475050eea41618fa9319b3a503bde9dd4bcd3af4",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1604:764c07e837c5",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "764c07e837c56ee7a13cc656848352ee751f491deb4436b5f565d4625b98ebdf",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1721:52390ad44ecb",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "52390ad44ecb15e6463bcf95ea05535ae7428e06ea4d2ffbcf6ea718be304c10",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:178:08f8ead0a647",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "08f8ead0a647abfb5042eb6b185d430f0f1a0e53d8b146de766a92895aff774c",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1825:6db46c8014ee",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6db46c8014ee432ad67ae4126ebd44964f966f60b4048b5b0c4a4462c48bb5e6",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:1873:34bc84ea1b03",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "34bc84ea1b03581b4653ee6d011a3bf7809907291106162234d032ee1aca1ac8",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:2066:b9b32edc7c86",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "b9b32edc7c868c8a49510ca872b6787a9a1f4edda0dd01965434bcd6f42f202e",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:2408:2d5b53f6ea96",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "2d5b53f6ea9676c8c7dcdeb37e859042682bc3c368e86c7cc7be008195ab0920",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:2628:ce7dc4b87cc1",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "ce7dc4b87cc116fb9b2e32d18ac80abf8c0f4bff75b1d9321cd0259337f17493",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:2712:6b2d5a773b61",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6b2d5a773b61ab80e1861c43544bf528ebe25c725be09f52b42b6cd2ea1b23c1",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3091:6fee02aee830",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6fee02aee8304899ff0b28998c52d79977e48a191950d5c738d2ef7a82564f70",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3240:93352b900d07",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "93352b900d077581baef8bb7b67841a29ccf2ff0ef43034c4ddb3bd22e3d9a4c",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3646:a40f37a9aec1",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a40f37a9aec1e8ee6b70bc9a70dceea0f96b765033c2b050a3e1c787d1b1a275",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3842:36a5af1e188a",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "36a5af1e188ad02f2dcc8bf945f84555689d89293a01d11cd23703e0382c6856",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3843:e885b45b795a",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e885b45b795a1d585ca8950303910a6a63403bf721890622bed7a318ed54eacb",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:3953:3113ef3c9be5",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "3113ef3c9be5fc3b614a2c0b5e95fef6abe6c0d42875d3262ac6a763ae6bb04a",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4213:dc74ac94a0ab",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "dc74ac94a0ab40c27638e005a63a602a766cef863914a7eceb9ee337b3077c8f",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4331:020b6102aa08",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "020b6102aa0840a0edd0bc0f99c3bc6689a32cfb93665c3040f87d5a17079285",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4733:5f4cc179be12",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "5f4cc179be12bd0c64ccc595132a2b3be0ce1eae8a4a239e2c0c0a189765b6e4",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4752:f3f3b666b8a4",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "f3f3b666b8a4418ddd33c79bb4564927d8e20488e50e993d7f4fe1ff2110c5d0",
+   "gold_hash": "f67ab10ad4e4c531"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4757:72ee694c0f95",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "72ee694c0f95719aba5c2c93bb0e8d28cf0a4c7391d2bcf3723522568989dd17",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:4761:e215821dbefc",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "e215821dbefcfd7f10b8d0519986d34005d41be4dca5c10619ec341bf705b618",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:5120:0275abb4f4c1",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "0275abb4f4c164e91ff255134ceb2ffb42f2b02e7f4221e4e8efbc1a30176aab",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:548:a5366dd5b196",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a5366dd5b196f39a80b756d538139c66467dee4f5d8345d65abbc078bbd54b7c",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:6236:924998a729b2",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "924998a729b2ddddefbeb0cf8dfeb9fba1d55b0edb5143ed4833fb952dfb97c5",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:6626:5cb7e392e5e2",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "5cb7e392e5e2ba1eea5ce39ef101cd4968180ed1faf7aa1b1a51115bbf2ac1a1",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:7050:d4b102baca4d",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "d4b102baca4da0721184f90487a69f767fa9f2cfb7f784e6bad9a5086220ab60",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:7154:71551592da24",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "71551592da248fc91177ba08cbdc01e0c959fa173e4bd91a1cdd412fd169b318",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:7246:01cb15b218f9",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "01cb15b218f99e5f55daacaab6b43dc403739e6aa6e02a0eb1ff127c2708e50a",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:7269:95270af7e35c",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "95270af7e35c781a49e99fbea8b1ba922247a12d5f749844f28a61a303eff454",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:738:a055c6cf7c87",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "a055c6cf7c876dfa9697ee44cba02ad67bcb3d63a5e56514836996b6e9be4fd9",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:7751:75891d35a49c",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "75891d35a49cc051832e974b3e47bb4dfdfd7a7b8991b52f6165efefe980e30b",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:8335:79b86d4e736a",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "79b86d4e736a8461ba0f10ebc6e795865d4c28a9fcd470483b22457ab8ba9f61",
+   "gold_hash": "f67ab10ad4e4c531"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:8361:fa02b6908539",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "fa02b690853937223f4b371c23b710d537149a017f5b5daf24d5c4f535a10ba0",
+   "gold_hash": "a83dd0ccbffe39d0"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:8410:6433189f3c50",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "6433189f3c503b570c0b7e09ed8df4ba89a21102f14fa58bdb98334706e18bdc",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:8823:49d2fa104cfe",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "49d2fa104cfef6ed1446bac5411635e42f31282f50a1af4daaa34382fdd424ab",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:9227:9e45abb82104",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "9e45abb8210478b1ac2c18554cb5d2f1bd8bb34dbe6326677fda7e890ad71ddc",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "dataset": "mmlu_pro",
+   "canonical_question_id": "mmlu_pro:test:9760:94f6590fa326",
+   "source_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+   "sample_role": "SCD_DEV",
+   "question_hash": "94f6590fa3266210cf00b547129fd70f5bce4894b728fbccc41baa62af573580",
+   "gold_hash": "f67ab10ad4e4c531"
+  }
+ ]
+}

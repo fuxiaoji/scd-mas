@@ -1,0 +1,24 @@
+# budget_stage1a.yaml — Stage-1A budget (PI §14)
+version: 1
+MAX_STAGE1A_GENERATIONS: 3300       # PI hard ceiling
+expected_generations: 1350
+  # arithmetic (paired design per PI §6/§15):
+  #   R0                      450  (150 x 3)
+  #   speculative revisions   450  (150 x 3) — ONE shared generation set serving S1 (adopt), S2 (discard), S3 (gate)
+  #   certificates            450  (150 x 3)
+  #   S4                      0    (certificate-swap on the SAME S_i, PI §S4 "apply it to the same speculative transitions")
+  # The PI's listed budget (3,150) counts S1/S2/S3 speculative sets separately and omits the
+  # sharing mandated by §6/§15; the paired design takes precedence and the savings become
+  # recovery headroom inside the unchanged 3,300 ceiling.
+TOKEN_CEILING: 1600000
+token_ceiling_derivation: >
+  P0-V2 measured mean = 8,365,143 tokens / 8,100 generations = 1,033 tokens per generation.
+  Expected 1,350 generations x 1,033 = 1,394,550 tokens. PI requires a hard ceiling with at
+  least 5% safety margin set BEFORE inference: 1,394,550 x 1.147 ~= 1,600,000 (15% margin).
+action_on_exceeded: STOP_AND_REPORT
+prior_project_consumption:
+  aove_mad_p0_v0_pilot: { generations: 900, tokens: 600974 }
+  aove_mad_p0_v2: { generations: 8100, tokens: 8365143 }
+  aove_mad_stage2a: { generations: 900 }
+  aove_mad_stage2b: { generations: 819 }
+  note: separate project; cumulative accounting reported for transparency only

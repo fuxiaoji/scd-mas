@@ -1,0 +1,28 @@
+{
+  "T1_HARM_SUPPRESSION": "FAIL",
+  "T1_detail": {
+    "S3_CWR": 0.0929,
+    "S1_CWR": 0.1071,
+    "delta_pp": -1.42
+  },
+  "T2_RESCUE_RETENTION": "PASS",
+  "T2_detail": {
+    "S3_WCR": 0.1118,
+    "S1_WCR": 0.1176,
+    "ratio": 0.9507
+  },
+  "T3_TEAM_ACCURACY": "PASS",
+  "T3_detail": {
+    "S3_team": 0.6067,
+    "S0_team": 0.5933
+  },
+  "T4_CERTIFICATE_SPECIFICITY": "PASS",
+  "T4_detail": {
+    "WCR_DCF_gt_MISMATCH": true,
+    "NRG_DCF_gt_MISMATCH": true
+  },
+  "T5_TRANSACTIONAL_INTEGRITY": "PASS",
+  "ORACLE_HEADROOM": 0.68,
+  "commit_rate_S3": 0.8933,
+  "SCD_STAGE1A": "UNSUPPORTED"
+}

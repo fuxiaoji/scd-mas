@@ -1,0 +1,756 @@
+{
+ "note": "gold scoring key — joined ONLY after runs/stage1a/raw outputs are frozen (PI §13)",
+ "created_utc": "2026-10-03T16:51:44Z",
+ "entries": [
+  {
+   "question_id": "mmlu_pro:test:4213:dc74ac94a0ab",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:9760:94f6590fa326",
+   "gold": "F",
+   "gold_hash": "f67ab10ad4e4c531"
+  },
+  {
+   "question_id": "mmlu_pro:test:4761:e215821dbefc",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:3240:93352b900d07",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:8410:6433189f3c50",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:1527:d58d9031f824",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:10314:738cff1f013c",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:7246:01cb15b218f9",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "mmlu_pro:test:5120:0275abb4f4c1",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "mmlu_pro:test:1525:8eab09145af5",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:2066:b9b32edc7c86",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:2408:2d5b53f6ea96",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:548:a5366dd5b196",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:3091:6fee02aee830",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:3646:a40f37a9aec1",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:11286:45923347e041",
+   "gold": "H",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "question_id": "mmlu_pro:test:1604:764c07e837c5",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:11752:cfc3bc360aba",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "mmlu_pro:test:1825:6db46c8014ee",
+   "gold": "J",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "question_id": "mmlu_pro:test:8335:79b86d4e736a",
+   "gold": "F",
+   "gold_hash": "f67ab10ad4e4c531"
+  },
+  {
+   "question_id": "mmlu_pro:test:10578:2f13a1917b64",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "mmlu_pro:test:4331:020b6102aa08",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "mmlu_pro:test:8361:fa02b6908539",
+   "gold": "I",
+   "gold_hash": "a83dd0ccbffe39d0"
+  },
+  {
+   "question_id": "mmlu_pro:test:1391:6495e5c9c57f",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "mmlu_pro:test:2628:ce7dc4b87cc1",
+   "gold": "H",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "question_id": "mmlu_pro:test:3953:3113ef3c9be5",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:4757:72ee694c0f95",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:7050:d4b102baca4d",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:10774:e127dfa999d2",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "mmlu_pro:test:109:593cbbcd6e0a",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "mmlu_pro:test:738:a055c6cf7c87",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:3842:36a5af1e188a",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "mmlu_pro:test:10266:09f09de671da",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:7751:75891d35a49c",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:7269:95270af7e35c",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:6626:5cb7e392e5e2",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "mmlu_pro:test:9227:9e45abb82104",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:4752:f3f3b666b8a4",
+   "gold": "F",
+   "gold_hash": "f67ab10ad4e4c531"
+  },
+  {
+   "question_id": "mmlu_pro:test:1873:34bc84ea1b03",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "mmlu_pro:test:11614:287c1dff2ba0",
+   "gold": "I",
+   "gold_hash": "a83dd0ccbffe39d0"
+  },
+  {
+   "question_id": "mmlu_pro:test:7154:71551592da24",
+   "gold": "J",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "question_id": "mmlu_pro:test:6236:924998a729b2",
+   "gold": "G",
+   "gold_hash": "333e0a1e27815d0c"
+  },
+  {
+   "question_id": "mmlu_pro:test:8823:49d2fa104cfe",
+   "gold": "J",
+   "gold_hash": "6da43b944e494e88"
+  },
+  {
+   "question_id": "mmlu_pro:test:3843:e885b45b795a",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:4733:5f4cc179be12",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:10458:5993c3fcc900",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "mmlu_pro:test:178:08f8ead0a647",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "mmlu_pro:test:2712:6b2d5a773b61",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "mmlu_pro:test:1491:7eec213b8d5f",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "mmlu_pro:test:1721:52390ad44ecb",
+   "gold": "H",
+   "gold_hash": "44bd7ae60f478fae"
+  },
+  {
+   "question_id": "math500:test/algebra/2780.json:cdaeb4bf71f6",
+   "gold": "\\$18.90",
+   "gold_hash": "5ef762feabb29600"
+  },
+  {
+   "question_id": "math500:test/precalculus/625.json:4eb54cd64aed",
+   "gold": "\\begin{pmatrix} 16/49 \\\\ 48/49 \\\\ 24/49 \\end{pmatrix}",
+   "gold_hash": "4b70c7c14a10e919"
+  },
+  {
+   "question_id": "math500:test/number_theory/1201.json:5b79ff26844c",
+   "gold": "1",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1238.json:bdd43ed05065",
+   "gold": "2",
+   "gold_hash": "d4735e3a265e16ee"
+  },
+  {
+   "question_id": "math500:test/geometry/172.json:bf1b475d2d82",
+   "gold": "8",
+   "gold_hash": "2c624232cdd22177"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/101.json:827611782a6a",
+   "gold": "10",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/199.json:d32a3fa07b18",
+   "gold": "x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1",
+   "gold_hash": "037336a1e9a30e08"
+  },
+  {
+   "question_id": "math500:test/geometry/795.json:04fc13556e3f",
+   "gold": "\\frac{\\sqrt{21}}{5}",
+   "gold_hash": "2d6f47e9e33dd90d"
+  },
+  {
+   "question_id": "math500:test/algebra/853.json:c132bc995ac9",
+   "gold": "12",
+   "gold_hash": "6b51d431df5d7f14"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/446.json:a66962fe3ac6",
+   "gold": "9",
+   "gold_hash": "19581e27de7ced00"
+  },
+  {
+   "question_id": "math500:test/geometry/702.json:c35f86042deb",
+   "gold": "160",
+   "gold_hash": "a512db2741cd2069"
+  },
+  {
+   "question_id": "math500:test/number_theory/1090.json:d1e39ceb48a9",
+   "gold": "202",
+   "gold_hash": "c17edaae86e4016a"
+  },
+  {
+   "question_id": "math500:test/number_theory/753.json:57d488b1dac9",
+   "gold": "13",
+   "gold_hash": "3fdba35f04dc8c46"
+  },
+  {
+   "question_id": "math500:test/prealgebra/805.json:ebfbf81b2d04",
+   "gold": "41",
+   "gold_hash": "3d914f9348c9cc0f"
+  },
+  {
+   "question_id": "math500:test/prealgebra/2019.json:2ca7e059eeb0",
+   "gold": "4.5",
+   "gold_hash": "32209ccbf8a8e509"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/525.json:74aae40cecc0",
+   "gold": "144",
+   "gold_hash": "5ec1a0c99d428601"
+  },
+  {
+   "question_id": "math500:test/number_theory/533.json:71eae2be9ad1",
+   "gold": "1030",
+   "gold_hash": "2f1987bf98c09d2f"
+  },
+  {
+   "question_id": "math500:test/prealgebra/2086.json:ee7c7225248f",
+   "gold": "40",
+   "gold_hash": "d59eced1ded07f84"
+  },
+  {
+   "question_id": "math500:test/geometry/73.json:ea88ff699f5e",
+   "gold": "4",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/913.json:3447eebbdcaa",
+   "gold": "6",
+   "gold_hash": "e7f6c011776e8db7"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/558.json:81dd044c95a0",
+   "gold": "(3,4]",
+   "gold_hash": "eea4bf1ea723d34d"
+  },
+  {
+   "question_id": "math500:test/algebra/1199.json:2bf2a416429c",
+   "gold": "1",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "question_id": "math500:test/number_theory/515.json:1866ff06f6f0",
+   "gold": "27",
+   "gold_hash": "670671cd97404156"
+  },
+  {
+   "question_id": "math500:test/geometry/465.json:b39e148459d7",
+   "gold": "120",
+   "gold_hash": "2abaca4911e68fa9"
+  },
+  {
+   "question_id": "math500:test/algebra/1004.json:21e3aa0cdbfe",
+   "gold": "4",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1388.json:3d1f09ed5cfd",
+   "gold": "83",
+   "gold_hash": "bbb965ab0c80d653"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1139.json:c93b65d8d852",
+   "gold": "4",
+   "gold_hash": "4b227777d4dd1fc6"
+  },
+  {
+   "question_id": "math500:test/number_theory/45.json:e8bbc51e4f0c",
+   "gold": "23",
+   "gold_hash": "535fa30d7e25dd8a"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/23957.json:73440cb70194",
+   "gold": "210",
+   "gold_hash": "d29d53701d3c859e"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/1151.json:49d399a24200",
+   "gold": "1",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/431.json:8870acf1d4b1",
+   "gold": "(a+5)(b+2)",
+   "gold_hash": "b3ecebb095ddc9b9"
+  },
+  {
+   "question_id": "math500:test/algebra/2427.json:d679be77bf18",
+   "gold": "10",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/188.json:21279e30be06",
+   "gold": "\\frac{1}{2}",
+   "gold_hash": "e7e9536310cdba7f"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/1508.json:b102f75a4648",
+   "gold": "-1",
+   "gold_hash": "1bad6b8cf97131fc"
+  },
+  {
+   "question_id": "math500:test/precalculus/452.json:377a092aa19d",
+   "gold": "\\text{(E)}",
+   "gold_hash": "cccbe8992471d546"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/230.json:d72f569d1481",
+   "gold": "\\frac{2}{21}",
+   "gold_hash": "d286cbc68a203ec1"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/1014.json:f25c15fb3535",
+   "gold": "480",
+   "gold_hash": "ddfe0e8d462af661"
+  },
+  {
+   "question_id": "math500:test/number_theory/928.json:3bc30c4cda03",
+   "gold": "3",
+   "gold_hash": "4e07408562bedb8b"
+  },
+  {
+   "question_id": "math500:test/prealgebra/846.json:63fb0c19be9b",
+   "gold": "84",
+   "gold_hash": "44c8031cb036a735"
+  },
+  {
+   "question_id": "math500:test/algebra/824.json:48e7b5d5a1bb",
+   "gold": "12",
+   "gold_hash": "6b51d431df5d7f14"
+  },
+  {
+   "question_id": "math500:test/algebra/2232.json:4bf09b4453a8",
+   "gold": "-3",
+   "gold_hash": "615bdd17c2556f82"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/116.json:24416ee05263",
+   "gold": "4495",
+   "gold_hash": "3a1e191db60edbc0"
+  },
+  {
+   "question_id": "math500:test/algebra/1082.json:9dadcec4ce9d",
+   "gold": "23",
+   "gold_hash": "535fa30d7e25dd8a"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1930.json:66777c6b1d13",
+   "gold": "7",
+   "gold_hash": "7902699be42c8a8e"
+  },
+  {
+   "question_id": "math500:test/counting_and_probability/803.json:4c1c2d962a0e",
+   "gold": "\\frac{1}{4}",
+   "gold_hash": "5f028113fb418f45"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1233.json:3c77f3abead8",
+   "gold": "10",
+   "gold_hash": "4a44dc15364204a8"
+  },
+  {
+   "question_id": "math500:test/number_theory/572.json:32c3cda4fa5f",
+   "gold": "9",
+   "gold_hash": "19581e27de7ced00"
+  },
+  {
+   "question_id": "math500:test/prealgebra/1747.json:0f8bfc43c716",
+   "gold": "1",
+   "gold_hash": "6b86b273ff34fce1"
+  },
+  {
+   "question_id": "math500:test/intermediate_algebra/117.json:7c500c083448",
+   "gold": "15",
+   "gold_hash": "e629fa6598d73276"
+  },
+  {
+   "question_id": "math500:test/algebra/524.json:83864f874959",
+   "gold": "4005",
+   "gold_hash": "ec351e24af73a8d6"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:41:c18aa3e42c11",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:logical_deduction_five_objects:87:52dc088b3928",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:sports_understanding:106:4124d1021bf9",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:temporal_sequences:103:61172cdfc9d1",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:navigate:90:eec043cfcb0c",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:ruin_names:168:35828139be5d",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:navigate:264:76f3054750fe",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:tracking_shuffled_objects_three_objects:157:2fa491b80a62",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:web_of_lies:202:89422b9397fd",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:movie_recommendation:128:98adc74b4664",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "benchform:temporal_sequences:127:93b83900cf14",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:snarks:20:c90e45a4aade",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:hyperbaton:255:29ffadc226e1",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:temporal_sequences:150:c77f9e02c2b5",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:sports_understanding:260:aab50883cf21",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:hyperbaton:47:501f1e5325ee",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:183:ed28f17ddb35",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:web_of_lies:163:9b1ddb055c1d",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:195:e3680062dc3a",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:ruin_names:270:62120e9bc45a",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:causal_judgment:86:4835fd38c3dd",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:snarks:64:c9acff1d70a8",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:date_understanding:233:ce7ad0469734",
+   "gold": "E",
+   "gold_hash": "a9f51566bd6705f7"
+  },
+  {
+   "question_id": "benchform:movie_recommendation:28:f95ccf1659ce",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:hyperbaton:53:be18edc2a331",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:snarks:40:efb3a233070e",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:ruin_names:236:d8ff9c0918fe",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:logical_deduction_five_objects:76:1a6704ee62df",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "benchform:web_of_lies:17:bc5474cc5b0e",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:snarks:1:f413fb7cb18c",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:hyperbaton:124:e5124663d8e0",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:navigate:294:143e5b62d8d9",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:movie_recommendation:256:4675ac23876b",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:ruin_names:138:0d2973c0fe44",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "benchform:logical_deduction_five_objects:185:0135f9c83a87",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "benchform:sports_understanding:221:556ef899ec8b",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:snarks:95:a7c26fd6488f",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:104:90e89ca067e1",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:sports_understanding:77:92e8189a5bc7",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:95:a2f2dc1bc330",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:temporal_sequences:186:828edb52604d",
+   "gold": "D",
+   "gold_hash": "3f39d5c348e5b79d"
+  },
+  {
+   "question_id": "benchform:ruin_names:83:bdc9589b9082",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:sports_understanding:189:c45d92ceb60c",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:disambiguation_qa:114:a5054896f9b3",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:sports_understanding:37:6645eedfe9c3",
+   "gold": "A",
+   "gold_hash": "559aead08264d579"
+  },
+  {
+   "question_id": "benchform:temporal_sequences:274:118c225a5c0c",
+   "gold": "C",
+   "gold_hash": "6b23c0d5f35d1b11"
+  },
+  {
+   "question_id": "benchform:sports_understanding:207:7ef3d849c8b5",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:hyperbaton:227:541c9df742f9",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:web_of_lies:197:9829d783f302",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  },
+  {
+   "question_id": "benchform:ruin_names:281:6ea175b96fb0",
+   "gold": "B",
+   "gold_hash": "df7e70e5021544f4"
+  }
+ ]
+}
