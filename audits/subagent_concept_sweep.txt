@@ -1,0 +1,44 @@
+Audit complete. Compiling the final report.
+
+## CONCEPT SWEEP RESULTS (arXiv API via export.arxiv.org + abs pages + WebSearch, 2024–2026, surveys and known-list papers excluded)
+
+### Explicit zero-hit concepts (valuable novelty evidence for SCD)
+- **C1 "speculative branch"/"speculative state" + agents**: 16 arXiv hits, ALL speculative decoding / CPU architecture (SpecBranch 2506.01979, MuonTrap, SafeSpec...). Zero multi-agent LLM reasoning. http://export.arxiv.org/api/query?search_query=all:%22speculative+branch%22+OR+all:%22speculative+state%22
+- **C2 "shadow reasoning"/"shadow branch"**: only image shadows + CPU FDIP (Exposing Shadow Branches 2408.12592). Zero LLM-agent hits.
+- **C4 "reversible debate"/"reversible revision"**: 0 results.
+- **C6 "private belief" + language model**: 0 results.
+- **C10 "sandbox"+revision+reasoning+LLM**: 0 results.
+- **C14 "speculative revision"/"draft-then-verify"**: 25 hits, ALL decoding acceleration (EAGLE-style); none revise reasoning content. https://arxiv.org/abs/2509.23232 et al.
+- **"original answer" + "multi-agent debate"**: 0 results.
+- **No 2026 successors** of the known list (ReAgent, LMAD, COMED, Thought Rollback, SVR-MAD, etc.) surfaced in any sweep.
+
+### Relevant papers (five factors: F1 immutable private incumbent / F2 peer info in separate speculative branch / F3 delta represented separately / F4 explicit COMMIT-ROLLBACK validator for peer-induced transition / F5 multi-agent LLM reasoning)
+
+**1. Hear Both Sides: Efficient Multi-Agent Debate via Diversity-Aware Message Retention (DAR)** — Manh Nguyen, 2026, arXiv:2603.20640v2, preprint (no venue comment). Fetched: https://arxiv.org/abs/2603.20640 (via ti:"Hear Both Sides" API). MAD where each round DAR broadcasts only maximally-disagreeing responses; "an index-based mechanism keeps the original messages unchanged so disagreements stay genuine." — **F1: partial** (immutability is of debate *messages*, not a per-agent committed solution; all agents still read peers directly); **F2: no**; **F3: no**; **F4: no** (selection/filtering only); **F5: yes** (MAD reasoning, QA + reasoning benchmarks).
+
+**2. Remember and Reweight (R²-MAD)** — Xuanfa Jin, 2026, arXiv:2609.03619, **EMNLP 2026 Findings** (comments field). Fetched: https://arxiv.org/abs/2609.03619. Experience memory + per-agent reliability → "confidence weights to modulate peer influence" against shared misconception. — **F1: no**; **F2: no**; **F3: no**; **F4: partial** (soft gating of peer influence, no binary validator, no rollback); **F5: yes** (MAD).
+
+**3. TomasuLLM: Out-of-Order Speculative Execution for LLM Agents** — Jiangnan Yu, 2026, arXiv:2609.38201, preprint. Fetched: https://arxiv.org/abs/2609.38201. Drafts future actions, executes "in isolated copy-on-write sandboxes", commits "in trajectory order only after validating against committed state", "zero false accepts" over 4,010 audited records. — **F1: yes** (committed state); **F2: yes** (speculative copy-on-write branch) — but of the agent's OWN future actions, not peer info; **F3: partial** (dependency/effect tracking); **F4: yes** (validation gate before commit); **F5: no** (single-agent tool-call runtime, not peer reasoning).
+
+**4. DeepRewind: Predicting and Repairing Premature Commitments in Deep Research Agents** — Amirhossein Abaskohi, 2026, arXiv:2609.36344v1, preprint. Fetched: https://arxiv.org/abs/2609.36344. Epistemic state as typed graph (sources/claims/hypotheses/**commitments**); world model "predicts its impact and estimates reversibility"; "a binary controller blocks risky commitments"; consistency monitor does "dependency-aware rollback". — **F1: yes** (commitments as graph nodes); **F2: no** (no peers — self-generated conclusions only); **F3: partial** (delta = graph update with reversibility estimate); **F4: yes** (binary controller + rollback), but not peer-induced; **F5: no** (single deep-research agent).
+
+**5. CoAgent: Concurrency Control for Multi-Agent Systems (MTPO)** — Hongtao Lyu, 2026, arXiv:2606.15376, cs.DC, "Submitted to ATC 2026" (non-archival systems venue). Fetched: https://arxiv.org/abs/2606.15376. Parallel LLM agents on shared state; "applies writes speculatively in place"; conflicting write → "one-way notification asks an affected reader to re-judge and patch its plan"; framework "mechanically undoes... misplaced writes through the saga-style inverse". — **F1: partial** (agent re-judges/repairs own plan rather than overwrite-by-peers, but writes are in-place, so the incumbent is NOT immutable); **F2: partial** (speculation is of own writes, not peer reasoning); **F3: no**; **F4: partial** (LLM judges conflict impact — advisory; rollback is framework-mechanical); **F5: no** (tool-call/state concurrency, not reasoning).
+
+**6. Conformity Dynamics in LLM Multi-Agent Systems: Topology and Self-Social Weighting** — Chen Han, 2026, arXiv:2601.05606, "Under Review". Fetched: https://arxiv.org/abs/2601.05606. Confidence-normalized pooling rule "controls the trade-off between self-reliance and social influence". — **F1: no**; **F2: no**; **F3: no**; **F4: partial** (soft self-vs-social weighting, no validator); **F5: yes** (multi-agent decision task).
+
+**7. Herd Behavior: Investigating Peer Influence in LLM-based MAS** — Young-Min Cho, 2025, arXiv:2505.21588, "Preprint". Fetched: https://arxiv.org/abs/2505.21588. Measures conformity vs confidence gap and presentation format. — F1–F4: **no** (analysis only, no mechanism); **F5: yes** (multi-agent LLM). Useful as motivation evidence for SCD's threat model.
+
+### Adjacent but rejected on F5 (infrastructure / single-agent / analysis)
+- **Rollback-Induced Reflection (RIR)**, Yi Yu, 2026, 2609.18304, preprint — single-agent rollback-boundary control, carries distilled memory forward; no peers. https://arxiv.org/abs/2609.18304
+- **CLEANER / SAAR**, Tianshi Xu, 2026, 2601.15141 — trajectory purification for agentic RL; rollback replaces failed steps in rollouts (venue UNVERIFIED from feed). https://arxiv.org/abs/2601.15141
+- **Reason Less, Verify More** (2607.07405), **CaMeLoT** (2609.18674), **Semantic Quorum Assurance** (2606.08021), **iCORE** (2607.27429), **GAIA** (2511.06262) — state-transition gating/auditing, but safety/plan/tool infra, not peer reasoning (via API sweep, gists only).
+- **VST** (2609.07065) — "transactional verify–leap controller" committing/rolling back speculative multi-cycle outcomes; finance alpha-discovery workflow, F5 no. **Cordon** (2606.17573), **XFlow** (2606.14790), **Planarian** (2609.35366), **ChronoMem** (2607.27773), **Revisable by Design** (2604.23283), **GA-Rollback** (2503.02519, EMNLP 2025) — transactional/rollback runtimes for agents, none peer-reasoning.
+- Conformity/peer-pressure analyses: LLMs Trust Their Own (2609.33495), Mandela Effect MAS (2602.00428, ICLR 2026), LLMs Can't Handle Peer Pressure (2508.18321, venue UNVERIFIED), Ringelmann scaling law (2606.02646), AgentPSO (2605.08704).
+- **Zero-hit phrasings** recorded under concept headers above.
+
+## THE 3 WORKS CLOSEST TO SCD's FIVE-FACTOR CHAIN
+1. **DAR (2603.20640)** — the only multi-agent LLM reasoning method with an explicit immutability mechanism (index-based retention keeps originals unchanged); lacks speculative branch, delta, and validator.
+2. **TomasuLLM (2609.38201)** — the only paper instantiating the full speculative chain (copy-on-write speculative branch → validation against committed state → commit); but for a single agent's tool calls, not peer reasoning.
+3. **DeepRewind (2609.36344)** — the only paper with an explicit binary COMMIT-blocking controller + dependency-aware ROLLBACK over a persistent epistemic state; but self-induced, single-agent.
+
+**Bottom line**: no 2024–2026 paper combines all five factors; SCD's specific combination — peer info routed into a per-agent speculative branch, Δ_i as a first-class transition, and an explicit COMMIT/ROLLBACK validator inside multi-agent LLM reasoning — appears unclaimed. The nearest collisions are on individual factors: message immutability in MAD (DAR), speculative-branch-plus-validator semantics (TomasuLLM, Cordon, CoAgent), and commit/rollback controllers (DeepRewind, RIR). Peer-influence gating exists only in soft forms (R²-MAD confidence weights, self-social weighting 2601.05606), never as a binary validator over a represented transition.

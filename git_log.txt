@@ -1,0 +1,4 @@
+# scd-mas git history at packaging time: 2026-10-03T05:34:18Z
+
+3e9da28 2026-10-03 13:33:17 +0800 stage0: collision review complete — FULL_COLLISION=NO (three-pass audit, ~30 works, main-agent full-text reads of LMAD/ReAgent/Debate-or-Vote; LMAD=MEDIUM shared-monotone vs per-agent-reversible, COMED=LOW query-level escalation, ROLLBACK=MEDIUM ReAgent detect-and-undo vs propose-and-approve); five-factor chain unclaimed; formalization + gate design space + thesis sketch + risk register
+08b43f1 2026-10-03 12:57:51 +0800 stage0: project initialized (PI Part B) — charter, evidence rule (aove-mad observations are motivating, not validation), Stage-0 plan, no inference authorized
